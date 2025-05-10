@@ -2,6 +2,8 @@ package com.java_spring.springmvc.domain;
 
 import jakarta.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "products")
 public class Product {
